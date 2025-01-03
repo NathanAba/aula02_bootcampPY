@@ -82,11 +82,26 @@ nome = a.lower()
 
 print(nome)
 #Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+a = (input("Digite seu nome:"))
 
+nome = a.strip()
+
+print(nome)
 #Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+data = input("Digite uma data no formato 'dd/mm/aaaa': ")
+
+dia, mes, ano = data.split('/')
+print(dia)
+print(mes)
+print(ano)
 
 #Escreva um programa que concatene duas strings fornecidas pelo usuário.
+a = str(input("Digite um nome: "))
+b = str(input("Digite um nome: "))
+                
+resultado = a + b
 
+print(resultado)
 #Booleanos (bool)
 #Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 
