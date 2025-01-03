@@ -1,110 +1,107 @@
-        ##Inteiros (int)
-        ##Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-        from xmlrpc.client import boolean
-
-
+##Inteiros (int)
+##Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 a = int(input("Digite um numero: "))
-        b = int(input("Digite um numero: "))
-                
-        resultado = a + b
+b = int(input("Digite um numero: "))
 
-        print(resultado)
-        ##Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-        a = int(input("Digite um numero: "))
+resultado = a + b
 
-        resultado = (a / 5)
-        print(resultado)
-        ##Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-        a = int(input("Digite um numero: "))
-        b = int(input("Digite um numero: "))
-                
-        resultado = a * b
+print(resultado)
+##Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+a = int(input("Digite um numero: "))
 
-        print(resultado)
-        #Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
-        a = int(input("Digite um numero: "))
-        b = int(input("Digite um numero: "))
-                
-        resultado = a / b
+resultado = (a / 5)
+print(resultado)
+##Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+a = int(input("Digite um numero: "))
+b = int(input("Digite um numero: "))
 
-        print(resultado)
+resultado = a * b
 
-        #Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.#
-        a = int(input("Digite um numero: "))
+print(resultado)
+#Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+a = int(input("Digite um numero: "))
+b = int(input("Digite um numero: "))
 
-        quadrado = a ** 2
-        print(quadrado)
+resultado = a / b
 
-        #Números de Ponto Flutuante (float)
-        #Escreva um programa que receba dois números flutuantes e realize sua adição.
-        a = float(input("Digite um numero: "))
-        b = float(input("Digite um numero: "))
+print(resultado)
 
-        soma = a + b
+#Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.#
+a = int(input("Digite um numero: "))
 
-        print(soma)
-        #Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-        a = float(input("Digite um numero: "))
-        b = float(input("Digite um numero: "))
+quadrado = a ** 2
+print(quadrado)
 
-        soma = (a + b) /2
+#Números de Ponto Flutuante (float)
+#Escreva um programa que receba dois números flutuantes e realize sua adição.
+a = float(input("Digite um numero: "))
+b = float(input("Digite um numero: "))
 
-        print(soma)
-        #Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-        a = float(input("Digite um base: "))
-        b = float(input("Digite um expoente: "))
+soma = a + b
 
-        soma = a ** b
+print(soma)
+#Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+a = float(input("Digite um numero: "))
+b = float(input("Digite um numero: "))
 
-        print(soma)
-        #Faça um programa que converta a temperatura de Celsius para Fahrenheit.
-        celsius = float(input("Digite uma temperatura: "))
+soma = (a + b) /2
 
-        fahrenheit = (celsius * 9/5) + 32
+print(soma)
+#Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+a = float(input("Digite um base: "))
+b = float(input("Digite um expoente: "))
 
-        print(fahrenheit)
-        #Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
-        raio = float(input("Digite um raio: "))
+soma = a ** b
 
-        area = 3.14 * (raio ** 2)
+print(soma)
+#Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+celsius = float(input("Digite uma temperatura: "))
 
-        print(area)
+fahrenheit = (celsius * 9/5) + 32
+
+print(fahrenheit)
+#Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio = float(input("Digite um raio: "))
+
+area = 3.14 * (raio ** 2)
+
+print(area)
 
 #Strings (str)
-        #Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+#Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
 
-        a = (input("Digite seu nome:"))
+a = (input("Digite seu nome:"))
 
-        nome = a.upper()
+nome = a.upper()
 
-        print(nome)
-        #Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-        a = (input("Digite seu nome:"))
+print(nome)
+#Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+a = (input("Digite seu nome:"))
 
-        nome = a.lower()
+nome = a.lower()
 
-        print(nome)
-        #Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
-        a = (input("Digite seu nome:"))
+print(nome)
+#Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+a = (input("Digite seu nome:"))
 
-        nome = a.strip()
+nome = a.strip()
 
-        print(nome)
-        #Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-        data = input("Digite uma data no formato 'dd/mm/aaaa': ")
+print(nome)
+#Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+data = input("Digite uma data no formato 'dd/mm/aaaa': ")
 
-        dia, mes, ano = data.split('/')
-        print(dia)
-        print(mes)
-        print(ano)
+dia, mes, ano = data.split('/')
+print(dia)
+print(mes)
+print(ano)
 
-        #Escreva um programa que concatene duas strings fornecidas pelo usuário.
-        a = str(input("Digite um nome: "))
-        b = str(input("Digite um nome: "))
-                        
-        resultado = a + b
+#Escreva um programa que concatene duas strings fornecidas pelo usuário.
+a = str(input("Digite um nome: "))
+b = str(input("Digite um nome: "))
 
-        print(resultado)
+resultado = a + b
+
+print(resultado)
 #Booleanos (bool)
 #Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 verdadeiro = True
@@ -112,6 +109,7 @@ falso = False
 
 print(verdadeiro and verdadeiro)
 print(falso and verdadeiro)
+
 #Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 
 a = input("Digite o primeiro valor booleano (True/False): ").strip().capitalize()
